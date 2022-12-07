@@ -1,0 +1,22 @@
+[
+    {
+        "email": "cliente.ebac@email.com",
+        "senha": "cliente4321"
+    },
+
+    {
+        "email": "aluno.ebac@email.com",
+        "senha": "aluno4321"
+    },
+
+    {
+        "email": "fulano.ebac@email.com",
+        "senha": "fulano4321"
+    },
+
+    {
+        "email": "beltrano.ebac@email.com",
+        "senha": "beltrano4321"
+    }
+
+]
