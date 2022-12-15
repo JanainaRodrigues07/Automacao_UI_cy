@@ -2,11 +2,11 @@
 
 const RegisterPage = require ("../support/pages/register.page")
 const dadosRegistro = require ("../fixtures/dadosRegistro.json")
-const {myAccount} = require ("../support/pages/myAccount.page")
+const { myAccount } = require ("../support/pages/myAccount.page")
 
 describe('Criar conta', () => {
     beforeEach(() => {
-        cy.visit("http://lojaebac.ebaconline.art.br/minha-conta/")
+        cy.visit('/minha-conta/')
     });
 
     it('Criar conta com email e senha válidos', () => {
