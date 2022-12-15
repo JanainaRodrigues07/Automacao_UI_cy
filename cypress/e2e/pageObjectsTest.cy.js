@@ -15,7 +15,7 @@ describe('Criar conta', () => {
         
     });
 
-    it.only('Criar conta com email já existente', () => {
+    it('Criar conta com email já existente', () => {
         RegisterPage.account(dadosRegistro[1].email, dadosRegistro[1].senha)
         myAccount.mensagemErro.should("be.visible")
         
